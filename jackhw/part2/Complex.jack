@@ -1,0 +1,33 @@
+class Complex {
+    field int one;
+    field int two;
+
+    constructor Complex new(int x, int y) {
+        let one = x;
+        let two = y;
+        //do add();
+        return this;
+
+    }
+    // accessors
+    method int getOne() {
+        return one;
+
+    }
+    method int getTwo() {
+        return two;
+
+    }
+    method Complex add(Complex other) {
+        var int sum;
+        let sum = (one * other.getTwo()) + (other.getOne() * two);
+        return Complex.new(sum, two * other.getTwo());
+
+    }
+    method void print() {
+      do Output.printInt(one);
+      do Output.printInt(two);
+      return;
+
+   }
+}

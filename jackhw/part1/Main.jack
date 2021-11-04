@@ -1,0 +1,15 @@
+class Main {
+    function void main() {
+        //var Array a;
+        var int x;
+        var int y;
+        let x = Keyboard.readInt("First number? ");
+        let y = Keyboard.readInt("Second Number? ");
+        //let a = Array.new(length);
+
+        do Output.printString("The product is ");
+        do Output.printInt(x * y);
+        return;
+    }
+    
+}

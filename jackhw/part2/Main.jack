@@ -1,0 +1,14 @@
+
+class Main {
+   function void main() {
+      var Complex a, b, c;        
+      let a = Complex.new(2, 3);  
+      let b = Complex.new(1, 5);
+      let c = a.add(b);  
+      do c.print(); 
+      return;
+
+   }
+   
+}
+

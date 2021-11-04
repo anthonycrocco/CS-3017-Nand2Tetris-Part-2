@@ -1,0 +1,17 @@
+class LineCreate {
+    field Line line;
+
+    constructor LineCreate new() {
+        let line = Line.new(1, 1, 100);
+        return this;
+    }
+
+    method void drawLine() {
+        return;
+    }
+
+    method void run() {
+
+    return;
+    }
+}
